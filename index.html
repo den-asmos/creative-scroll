@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Creative Scroll</title>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      defer
+    ></script>
+    <script src="libs/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="src/index.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img data-speed=".6" class="hero" src="assets/hero.png" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">Creative Scroll</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="assets/1.jpg" alt="Alt" />
+                <img class="gallery__item" src="assets/2.jpg" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="assets/6.jpg" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="assets/3.jpg" alt="Alt" />
+                <img class="gallery__item" src="assets/4.jpg" alt="Alt" />
+                <img class="gallery__item" src="assets/5.jpg" alt="Alt" />
+              </div>
+            </main>
+          </div>
+        </div>
+        <footer>
+          <p class="copyright">&#169; Den Adaleski</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
